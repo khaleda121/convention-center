@@ -1,0 +1,116 @@
+
+
+body{
+          font-family: 'Montserrat', sans-serif !important ; 
+  }
+
+      /* -------------carousel start --------- */
+
+ .carousel-item{
+
+          height: 80vh;
+          background-repeat: no-repeat;
+          background-size: cover;
+        
+  }
+        
+  .carousel-caption{
+        bottom: 180px;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align: center;
+        
+ }
+  .carousel-caption h4{
+         font-weight: bold;
+         color: white;
+        
+  }
+        .carousel-caption p{
+         font-weight: bold;
+         color: white;
+        
+ }
+       /*--------------- package-------------------  */
+
+ .design-card{
+          margin-top: -10%;
+          margin-left: -3%;
+          margin-right: -3%;
+        line-height: 30px;
+       border-radius: 30px;
+         
+       
+}
+.card{ 
+          background-color:rgb(103, 224, 224);
+
+         
+   }
+
+ span.fa{
+          color:orangered
+        }
+
+ /* --------------------footer start -------------------- */
+
+ footer{
+
+          background-color: rgb(5, 5, 70);
+          height: 200px;
+          width: 100vw;
+          color: #fff;
+ }
+
+ .footer-left {
+        margin-top: 6%;
+        text-align: center;
+      }
+           
+
+      /* -----mobile devices ---- */
+
+      @media only screen and (max-width:688px) {
+          .container{
+              width: 100%;
+             
+          }
+          .navbar-brand {
+                    font-size: small;
+          }
+          .carousel-item{
+                    height: 620px;
+                    padding: 5%;
+          }
+          .carousel-item img{
+                    height: 610px;
+          }
+          .carousel-caption h4{
+                     padding-top: 5%;
+                    font-size: small;
+                    text-align: center;        
+                   
+          }
+          .wedding-pic img{
+                  
+                    padding: 2%;
+                  width: 100%;
+          }
+          .card{
+               margin-bottom: 15%;
+          }
+          .design-card{
+                    margin-top: 5%;
+
+          }
+
+          .acc-right img{
+                    padding: 2%;
+                    width: 100%;
+          }
+}
+      
+           
+ 
+ 
+
